@@ -10,6 +10,8 @@ export class Pagina1Component
        implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked,
                   AfterViewInit, AfterViewChecked, OnDestroy {
 
+  nombre: string = 'Inma';
+  
   constructor() {
     console.log('constructor');
 
@@ -40,6 +42,8 @@ export class Pagina1Component
     console.log('ngOnInit');
   }
 
+  guardar(): void {
 
+  }
 
 }
